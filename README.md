@@ -9,7 +9,9 @@ In this example we use the ' or ''=' code to return a true statement when loggin
 the correct username and password it will always return true tricking the system to allow us to login.
 
 if you look at the login.php i commented out 2 lines of code
+
 //$name = mysqli_real_escape_string($link, $name);
+
 //$pass = mysqli_real_escape_string($link, $pass);
 
 this actually prevents SQL injection, it removes the symbols and leaves just the string part of the string making SQL injection not possible.
