@@ -15,3 +15,5 @@ if you look at the login.php i commented out 2 lines of code
 this actually prevents SQL injection, it removes the symbols and leaves just the string part of the string making SQL injection not possible.
 
 ![Screenshot](https://github.com/jasnnh/SQLInjection/blob/main/ss.PNG)
+
+this login is using the code ' or ''=' as the username and password.
