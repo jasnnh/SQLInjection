@@ -17,3 +17,4 @@ this actually prevents SQL injection, it removes the symbols and leaves just the
 ![Screenshot](https://github.com/jasnnh/SQLInjection/blob/main/ss.PNG)
 
 this login is using the code ' or ''=' as the username and password.
+if we wanted to do more damage we can use the code DROP to drop the tables and if no backup then all the data is gone.
